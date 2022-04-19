@@ -1,0 +1,9 @@
+server:
+  port: 3000
+client:
+  userAgent: Application
+  apiKey: 58aa5dd2fea84af4909b05ef279578e4
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
