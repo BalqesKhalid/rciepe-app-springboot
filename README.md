@@ -36,6 +36,10 @@ then you can lunch the application by running the file with the name "SearchReci
 # Swagger documentation:
 **You can use swagger to get full endpoints documentation [visit swagger](http://localhost:3000/swagger-ui.html).**
 
+# Postman collection
+Here is a public link to a static snapshot of  collection contains application Api's
+**[collection snapshot](https://www.getpostman.com/collections/04da810982f8da552de3)**
+
 # Spring Api's used to implement this application 
 * spring boot web
 * lombok
