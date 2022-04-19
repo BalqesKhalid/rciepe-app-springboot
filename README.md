@@ -23,7 +23,7 @@ then you can lunch the application by running the file with the name "SearchReci
 1. name
 2. id 
 ```
-**Http-method: GET,sample example: http://localhost:3000/recipes/ingredients?id=715538**
+**Http-method: GET,sample example: http://localhost:3000/recipes/ingredients?name=Italian%20Tuna%20Pasta&id=715538**
 
 **get customized recipe information:**
 * Takes the below as parameters:
