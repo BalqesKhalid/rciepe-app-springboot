@@ -31,7 +31,7 @@ then you can lunch the application by running the file with the name "SearchReci
 1. name
 2. id 
 ```
-**Http-method: GET, sample example: http://localhost:3000/recipes/ingredients/custom?id=715538&excludedIngredients=10010062,20420,1033**
+**Http-method: GET, sample example: http://localhost:3000/recipes/ingredients/custom?name=Italian%20Tuna%20Pasta&id=715538&excludedIngredients=10010062,20420,1033**
 
 # Swagger documentation:
 **You can use swagger to get full endpoints documentation [visit swagger](http://localhost:3000/swagger-ui.html).**
