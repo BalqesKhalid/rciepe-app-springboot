@@ -5,6 +5,9 @@ import com.recipes.searchrecipe.adapter.web.rest.client.dto.Recipe;
 import com.recipes.searchrecipe.adapter.web.rest.dto.IngredientDto;
 import com.recipes.searchrecipe.adapter.web.rest.dto.RecipeDto;
 
+/**
+ * Utility class provides method to convert client response objects to dto object
+ */
 public class ToUserDtoConverterUtil {
 
     public static RecipeDto convertToRecipeDto(Recipe recipe){

@@ -7,5 +7,5 @@ import lombok.Setter;
 @Setter
 public class Nutrition {
 
-    private Nutrient [] nutrients;
+    private Nutrient[] nutrients;
 }

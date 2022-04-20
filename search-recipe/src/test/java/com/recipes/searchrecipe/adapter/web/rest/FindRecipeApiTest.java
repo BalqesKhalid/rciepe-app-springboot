@@ -30,8 +30,8 @@ class FindRecipeApiTest {
 
     private static String URL = "http://localhost:3000/";
     /**
-     * Find recipe
-     * Happy scenario test-will pass valid input
+     * Find recipe, this test includes valid input
+     * Happy scenario
      * @throws Exception
      */
     @Test
@@ -52,8 +52,7 @@ class FindRecipeApiTest {
     }
 
     /**
-     * find recipe
-     * This test includes invalid input
+     * find recipe, this test includes invalid input
      */
 
     @Test

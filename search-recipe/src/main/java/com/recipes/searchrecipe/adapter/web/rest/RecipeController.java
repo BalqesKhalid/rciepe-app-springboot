@@ -31,6 +31,13 @@ public class RecipeController {
         this.recipeClient = recipe_client;
     }
 
+    /**
+     * <b>This Api return list of recipes that are matched search criteria</b>
+     * @param title
+     * @param cuisine
+     * @param excludeCuisine
+     * @return
+     */
     @GetMapping(value = "recipes")
     public List<RecipeDto> findRecipe(@RequestParam String title, @RequestParam String cuisine, @RequestParam String excludeCuisine) {
 
@@ -40,6 +47,13 @@ public class RecipeController {
                 .collect(Collectors.toList());
     }
 
+    /**
+     * <b>This Api will return information about the recipe of the submitted recipe_id, information includes
+     * each ingredient calories and the summation of each ingredient calories as a total calories</b>
+     * @param name
+     * @param id
+     * @return
+     */
 
     @GetMapping(value = "recipes/ingredients")
     public RecipeSummaryDto getRecipeSummary(@RequestParam String name ,@RequestParam Long id) {
@@ -59,7 +73,16 @@ public class RecipeController {
 
     }
 
-
+    /**
+     * <b>This Api will return information about the recipe of the submitted recipe_id, information includes
+     * each ingredient calories and the summation of each ingredient calories as a total calories
+     * and it will exclude the ingredients of the excludedIngredients list</b>
+     * @param name
+     * @param id
+     * @param excludedIngredients
+     * @return
+     * @throws InvalidDataException
+     */
 
     @GetMapping(value = "recipes/ingredients/custom")
     public RecipeSummaryDto getRecipeCustomizedSummary(@RequestParam String name,@RequestParam Long id, @RequestParam List<Long> excludedIngredients) throws InvalidDataException {
@@ -80,6 +103,11 @@ public class RecipeController {
 
     }
 
+    /**
+     * <b>This method will call end point to get recipe ingredients<b/>
+     * @param id
+     * @return
+     */
     private List<ExtendedIngredient> getIngredients(@RequestParam Long id) {
         return Arrays.stream(recipeClient.getRecipeIngredient(userAgent, apiKey, id)
                 .orElseThrow(() -> new InvalidDataException("recipeId:" + id)))
@@ -88,10 +116,20 @@ public class RecipeController {
                 .getExtendedIngredients();
     }
 
+    /**
+     * <b>get the summation of total ingredients calories</b>
+     * @param ingredients
+     * @return
+     */
     private Double getTotalNumberOfCalories(List<IngredientDto> ingredients) {
         return ingredients.stream().map(i -> i.getCalories()).reduce(0.0, (integer, aDouble) -> integer + aDouble);
     }
 
+    /**
+     * <b>call Api to get each ingredient calories</b>
+     * @param ingredient
+     * @return
+     */
     private double computeCalories(IngredientDto ingredient) {
 
         try {

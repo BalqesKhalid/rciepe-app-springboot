@@ -22,7 +22,7 @@ class CustomizedRecipeInformationApiTest {
 
     private static String URL = "http://localhost:3000/";
     /**
-     * Test Api that get the information of recipe-this test includes valid input
+     * Test Api that get the information of recipe, this test includes valid input
      * Happy scenario test
      *
      * @throws Exception
@@ -44,7 +44,7 @@ class CustomizedRecipeInformationApiTest {
     }
 
     /**
-     * Test Api that get the information of recipe-this test includes invalid input
+     * Test Api that get the information of recipe, this test includes invalid input
      */
 
     @Test
