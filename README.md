@@ -3,8 +3,8 @@
 **This application provides the ability to search recipes and provides recipes information. it includes backend endpoints implemented with spring boot.**
 
 # Application setup
-**After cloning the project and by using any IDE you prefer (IntelliJ, STS, ...etc) or by running the application using the command line, 
-then you can lunch the application by running the file with the name "SearchRecipesApplication.java as starting point.**
+**After cloning the project and by using any IDE you prefer (IntelliJ, STS, ...etc) or by using the command line, 
+then you can lunch the application by running the java class file with the name "SearchRecipesApplication.java which is the starting point of spring application.**
 
 # Application end points:
 
