@@ -4,7 +4,7 @@
 
 # Application setup
 **After cloning the project and by using any IDE you prefer (IntelliJ, STS, ...etc) or by using the command line, 
-then you can lunch the application by running the java class file with the name "SearchRecipesApplication.java which is the starting point of spring application.**
+then you can lunch the application by running the java class file with the name "SearchRecipesApplication" which is the starting point of spring application.**
 
 # Application end points:
 
@@ -15,7 +15,7 @@ then you can lunch the application by running the java class file with the name 
 2. cuisine 
 3. excludeCuisine
 ```
-**Http-method: GET, sample example: http://localhost:3000/recipes?title=burger&cuisine=italian&excludeCuisine=greek**
+Http-method: GET, sample example: http://localhost:3000/recipes?title=burger&cuisine=italian&excludeCuisine=greek
 
 **get recipe information:**
 * Takes the below as parameters:
@@ -23,15 +23,16 @@ then you can lunch the application by running the java class file with the name 
 1. name
 2. id 
 ```
-**Http-method: GET,sample example: http://localhost:3000/recipes/ingredients?name=Italian%20Tuna%20Pasta&id=715538**
+Http-method: GET,sample example: http://localhost:3000/recipes/ingredients?name=Italian%20Tuna%20Pasta&id=715538
 
 **get customized recipe information:**
 * Takes the below as parameters:
 ```
 1. name
-2. id 
+2. excludedIngredients 
+3. id 
 ```
-**Http-method: GET, sample example: http://localhost:3000/recipes/ingredients/custom?name=Italian%20Tuna%20Pasta&id=715538&excludedIngredients=10010062,20420,1033**
+Http-method: GET, sample example: http://localhost:3000/recipes/ingredients/custom?name=Italian%20Tuna%20Pasta&id=715538&excludedIngredients=10010062,20420,1033
 
 # Swagger documentation:
 **You can use swagger to get full endpoints documentation [visit swagger](http://localhost:3000/swagger-ui.html).**
