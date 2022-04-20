@@ -4,7 +4,7 @@
 
 # Application setup
 
-**After downloading the project and the open the project by using any IDE you prefer (IntelliJ, STS, ...etc), 
+**After downloading the project then open the project by using any IDE you prefer (IntelliJ, STS, ...etc), 
 then you can lunch the application by running the java class file with the name "SearchRecipesApplication" which is the starting point of spring application.**
 
 **Or by using the command line, by following the below steps**
