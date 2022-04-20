@@ -35,7 +35,7 @@ Http-method: GET,sample example: http://localhost:3000/recipes/ingredients?name=
 Http-method: GET, sample example: http://localhost:3000/recipes/ingredients/custom?name=Italian%20Tuna%20Pasta&id=715538&excludedIngredients=10010062,20420,1033
 
 # Swagger documentation:
-**You can use swagger to get full endpoints documentation [visit swagger](http://localhost:3000/swagger-ui.html).**
+You can visit swagger to get full endpoints documentation [visit swagger](http://localhost:3000/swagger-ui.html).
 
 # Postman collection
 Here is a public link to a static snapshot of  collection contains application Api's
