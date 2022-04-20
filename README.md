@@ -3,8 +3,18 @@
 **This application provides the ability to search recipes and provides recipes information. it includes backend endpoints implemented with spring boot.**
 
 # Application setup
-**After cloning the project and by using any IDE you prefer (IntelliJ, STS, ...etc) or by using the command line, 
+
+**After downloading the project and the open the project by using any IDE you prefer (IntelliJ, STS, ...etc), 
 then you can lunch the application by running the java class file with the name "SearchRecipesApplication" which is the starting point of spring application.**
+
+**Or by using the command line, by following the below steps**
+```
+**This steps work with windows operating system**
+1. open your command line then move to the target folder that inclodes the application jar file(rciepe-app-springboot\search-recipe\target)
+2. from the command line  enter this command ($ java -jar search-recipe-0.0.1-SNAPSHOT.jar)
+Then the application is up and running.
+![arch](run-app.jpg)
+```
 
 # Application end points:
 
