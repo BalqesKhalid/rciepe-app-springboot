@@ -13,8 +13,8 @@ then you can lunch the application by running the java class file with the name 
 1. open your command line then move to the target folder that inclodes the application jar file(rciepe-app-springboot\search-recipe\target)
 2. from the command line  enter this command ($ java -jar search-recipe-0.0.1-SNAPSHOT.jar)
 Then the application is up and running.
-![arch](run-app.jpg)
 ```
+![arch](run-app.jpg)
 
 # Application end points:
 
