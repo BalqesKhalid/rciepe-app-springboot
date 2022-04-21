@@ -5,12 +5,12 @@
 # Application setup
 **First thing you have to do open the properties file and upadte apiKey value, file name [application.yml]. then you can follow one of the approaches explained below.**
 
-#First Approach-Using IDE
+## First Approach-Using IDE
 
 **After downloading the project then open the project by using any IDE you prefer (IntelliJ, STS, ...etc), 
 Then you can run the application by running the java class file with the name "SearchRecipesApplication" which is the starting point of spring application.**
 
-#Second Approach-Using command line
+## Second Approach-Using command line
 
 **Follow the below steps:**
 ```
