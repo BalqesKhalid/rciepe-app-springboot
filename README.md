@@ -16,8 +16,8 @@ Then you can run the application by running the java class file with the name "S
 
 **This steps work with windows operating system**
 1. You have to dowload JAVA jdk.
-2. Set the Environment variable JAVA_HOME, check this[link](https://mkyong.com/java/how-to-set-java_home-on-windows-10/).
-3. installing Apache Maven and adding the bin folder with the mvn command to the PATH, check this [link] (https://maven.apache.org/install.html).
+2. Set the Environment variable JAVA_HOME, check this [link](https://mkyong.com/java/how-to-set-java_home-on-windows-10/).
+3. installing Apache Maven and adding the bin folder with the mvn command to the PATH, check this [link](https://maven.apache.org/install.html).
 4. Then from the command line move to ..\rciepe-app-springboot\search-recipe, keep in mind to replace ".." with the path where you save the project.
 5. Then from the command line run this command [ mvn install]
 6. after completing step 5 run this command [java -jar target\search-recipe-0.0.1-SNAPSHOT.jar]
