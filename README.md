@@ -3,21 +3,21 @@
 **This application provides the ability to search recipes and provides recipes information. it includes backend endpoints implemented with spring boot.**
 
 # Application setup
-**First thing you have to do open the properties file and upadte apiKey value, file name [application.yml]**
+**First thing you have to do open the properties file and upadte apiKey value, file name [application.yml]. then you can follow one of the approaches explained below.**
 
-**First Approach-Using IDE**
+#First Approach-Using IDE
 
 **After downloading the project then open the project by using any IDE you prefer (IntelliJ, STS, ...etc), 
 Then you can run the application by running the java class file with the name "SearchRecipesApplication" which is the starting point of spring application.**
 
-**Second Approach-Using command line**
+#Second Approach-Using command line
 
-**Follow the below steps, these steps with windows operating system:**
+**Follow the below steps:**
 ```
 **This steps work with windows operating system**
-1. you have to dowload JAVA jdk
-2. Set the Environment variable JAVA_HOME, check this[link](https://mkyong.com/java/how-to-set-java_home-on-windows-10/)
-3. installing Apache Maven and adding the bin folder with the mvn command to the PATH, check this [link] (https://maven.apache.org/install.html) .
+1. You have to dowload JAVA jdk.
+2. Set the Environment variable JAVA_HOME, check this[link](https://mkyong.com/java/how-to-set-java_home-on-windows-10/).
+3. installing Apache Maven and adding the bin folder with the mvn command to the PATH, check this [link] (https://maven.apache.org/install.html).
 4. Then from the command line move to ..\rciepe-app-springboot\search-recipe, keep in mind to replace ".." with the path where you save the project.
 5. Then from the command line run this command [ mvn install]
 6. after completing step 5 run this command [java -jar target\search-recipe-0.0.1-SNAPSHOT.jar]
