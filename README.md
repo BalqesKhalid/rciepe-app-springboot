@@ -25,7 +25,7 @@ Then you can run the application by running the java class file with the name "S
 ![arch](run-app.jpg)
 
 # Design decisions
-I would like to highlit why I have chosen Open Fien instead of RestTemplate, The Point is using Open Fien helped me to implement the concept of abstraction so I separated the logic of calling endpoints from the rest controller's implementation as well avoiding redundant code.
+I would like to highlit why I have chosen Open Fien instead of RestTemplate, The Point is that using Open Fien helped me to implement the concept of abstraction so I separated the logic of calling endpoints from the rest controller's implementation as well avoiding redundant code.
 
 Another thing creating different packages of DTO one to receive the response object from spectacular and the other for my application 
 and the point here is to make the code maintainable and to avoid high coupling classes. 
